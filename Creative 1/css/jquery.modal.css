@@ -1,0 +1,44 @@
+.modal {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #000;
+    display: none;
+    moz-border-radius: 8px;
+    moz-box-shadow: 0 0 10px #000;
+    ms-border-radius: 8px;
+    ms-box-shadow: 0 0 10px #000;
+    o-border-radius: 8px;
+    o-box-shadow: 0 0 10px #000;
+    padding: 15px 30px;
+    webkit-border-radius: 8px;
+    webkit-box-shadow: 0 0 10px #000;
+    width: 400px;
+}
+.modal a.close-modal
+{
+    background: url(../images/close.png) no-repeat 0 0;
+    display: block;
+    height: 30px;
+    position: absolute;
+    right: -12.5px;
+    text-indent: -9999px;
+    top: -12.5px;
+    width: 30px;
+}
+.modal-spinner
+{
+    background: url(../images/spinner.gif) #111 no-repeat center center;
+    border-radius: 8px;
+    display: none;
+    height: 64px;
+    left: 50%;
+    margin-right: -32px;
+    margin-top: -32px;
+    moz-border-radius: 8px;
+    ms-border-radius: 8px;
+    o-border-radius: 8px;
+    position: fixed;
+    top: 50%;
+    webkit-border-radius: 8px;
+    width: 64px;
+}

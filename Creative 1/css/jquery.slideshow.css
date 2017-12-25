@@ -1,0 +1,86 @@
+/**
+ * Slide-show
+ */
+.modal.slide-show {
+    align-items:center;
+    background-color:transparent;
+    border-radius:none;
+    box-shadow: none;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    height:100%;
+    overflow:hidden;
+    padding:0;
+    width:100%;
+}
+.slide-show > .actions {
+    display:flex;
+    justify-content:center;
+    padding:2px;
+    position:absolute;
+    top:0;
+    width:100%;
+}
+.slide-show > .actions > * {
+    align-items:center;
+    cursor:pointer;
+    display:flex;
+    font-weight:bold;
+    justify-content:center;
+    flex:0 30px;
+    height:30px;
+    margin:2px;
+    opacity:.65;
+}
+.slide-show > .actions > .close {
+    background:url('../images/close.png') no-repeat 0 0;
+}
+.slide-show > .actions > .next {
+    background:url('../images/next.png') no-repeat 0 0;
+}
+.slide-show > .actions > .prev {
+    background:url('../images/prev.png') no-repeat 0 0;
+}
+.slide-show > .actions > .play {
+    background:url('../images/play.png') no-repeat 0 0;
+}
+.slide-show > .actions > .fullscreen {
+    background:url('../images/fullscreen.png') no-repeat 0 0;
+}
+.slide-show > .spinner {
+    align-self:center;
+    background:url('../images/spinner.gif') no-repeat center center;
+    background-color:rgba(0, 0, 0, .8);
+    border-radius:4px;
+    height:24px;
+    left:50%;
+    margin:0 auto;
+    position:absolute;
+    top:50%;
+    width:24px;
+}
+.slide-show > img {
+    align-self:center;
+    display:none;
+    margin:0 auto;
+}
+.slide-show > img.spinner {
+    display:flex;
+}
+.slide-show > img.fit {
+    justify-content:center;
+    max-width:100%;
+    max-height:100%;
+    padding:20px;
+}
+.slide-show > img.fitmax {
+    max-width:100%;
+    max-height:100%;
+}
+.slide-show > img.fill {
+    display:flex;
+    margin-left:0;
+    max-width:none;
+    max-height:none;
+}

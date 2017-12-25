@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Javascript</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+  <header>
+    <h1>Simple Math Game</h1>
+  </header>
+
+  <div class="content">
+    <div class="subhead">
+        <h1>Check Your mathematical Skill</h1>
+    </div>
+
+  <div class="wrapper">
+      <p id="number1"></p>
+      <p id="operator"></p>
+      <p id="number2"></p>
+  </div>
+
+  <div class="answer">
+    <input type="text" id="number" placeholder="What is your answer?">
+  </div>
+
+  <div class="submit">
+    <span id="sub" onclick="changecolorsubmit()">Submit</span>
+  </div>
+
+  <div class="result">
+    <div class="result_content">
+    <div class="answer">
+    <span id="ans" class="btn"></span>
+    </div>
+    <div class="score">
+      <p class="total">Total: <span id="tot">0</span></p>
+      <p class="correct">Correct: <span id="correct">0</span></p>
+      <p class="wrong">Wrong: <span id="wrong" >0</span></p>
+    </div>
+    </div>
+  </div>
+  </div>
+      <script src="myScript.js"></script>
+</body>
+</html>
